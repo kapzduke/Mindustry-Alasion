@@ -20,11 +20,12 @@ mesh: {
 #the mesh used for clouds. commented out since this planet has no clouds
 #you can't declare a type for this, but you can at least modify the existing one's fields
 generator: {
+  getSizeScl: 1984
   min: 150
   max: 300
   radMin: 300
   radMax: 300
-  seed: 843247
+  seed: 273432
   berylChance: 0
 }
 
@@ -91,3 +92,6 @@ solarSystem: sun
 
 #possible planets that could be landed into from this planet. probably useless since interplanetary accelerator is still not working
 launchCandidates: []
+
+#the size of this planet's sector grid
+sectorSize: 2
